@@ -2,8 +2,11 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-app.use(express.static(__dirname));
-//app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname)));
+app.use(express.static(__dirname + '/CSS'));
+app.use(express.static(__dirname + '/Images'));
+app.use(express.static(__dirname + '/JS'));
+
 //app.use("/styles", express.static(__dirname + '/CSS'));
 //app.use("/images", express.static(__dirname + '/Images'));
 //app.use("/scripts", express.static(__dirname + '/JS'));
