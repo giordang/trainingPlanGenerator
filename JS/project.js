@@ -1,6 +1,3 @@
-// greg giordano
-// cs1300 project
-
 function get_program() {
 	// Returns whether user selected "beginner" or "advanced" programs
 	// Arguments: none
