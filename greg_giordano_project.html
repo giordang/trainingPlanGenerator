@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<! greg giordano >
+<! cs1300 project>
+
+<html>
+
+	<body id="body">
+
+		<header>
+
+				<h1> Training Plan Generator </h1>
+
+		</header>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!JQuery>
+
+		<link href="css/project.css" type="text/css" rel="stylesheet" /> <! link to CSS file>
+
+		<div>
+		
+		<img src="images/track.jpg" id="track_photo" /> <!Photo by Austris Augusts on Unsplash>
+
+		<! input forms>
+
+		</div>
+
+		<form id="which_program_form" class="question">
+			<legend>Select the beginner or advanced program</legend>
+				<input type="radio" id="beginner" name="program" value="beginner" /> Beginner
+				<input type="radio" id="advanced" name="program" value="advanced" /> Advanced
+		</form>
+
+		<form id="race_date_form" class="question">
+			<legend> What is the date of the race? (mm/dd/yyyy) </legend>
+				<input type="text" class="textbox" id="race_date" name="date" />
+		</form>
+
+		<form id="race_distance_form" class="question">
+			<legend>What is the distance of the race?</legend>
+				<input type="radio" id="5k" name="distance" /> 5k
+				<input type="radio" id="10k" name="distance" /> 10k
+				<input type="radio" id="half_marathon" name="distance" /> Half Marathon
+				<input type="radio" id="marathon" name="distance" /> Marathon
+		</form>
+
+		<form id="days_form" class="question">
+			<legend>What days of the week are you able to train?</legend>
+				<input type="checkbox" name="days" id="Mon" value="Monday" /> Monday
+				<input type="checkbox" name="days" id="Tues" value="Tuesday" /> Tuesday
+				<input type="checkbox" name="days" id="Wed" value="Wednesday" /> Wednesday
+				<input type="checkbox" name="days" id="Thur" value="Thursday" /> Thursday
+				<input type="checkbox" name="days" id="Fri" value="Friday" /> Friday
+				<input type="checkbox" name="days" id="Sat" value="Saturday" /> Saturday
+				<input type="checkbox" name="days" id="Sun" value="Sunday" /> Sunday
+		</form>
+
+		<form id="age_form" class="question">
+			<legend>What is your age?</legend>
+				<input type="text" class="textbox" id="age" name="age_of" />
+		</form>
+
+		<form id="mileage_form" class="question">
+			<legend>What is your current weekly mileage?</legend>
+				<input type="text" class="textbox" id="mileage" name="current_mileage" />
+		</form>
+
+		<form id="pr_form" class="question">
+			<legend>Personal best race distance:</legend>
+				<input type="radio" id="pr_5k" name="pr_distance_name" /> 5k
+				<input type="radio" id="pr_10k" name="pr_distance_name" /> 10k
+				<input type="radio" id="pr_half_marathon" name="pr_distance_name" /> Half Marathon
+				<input type="radio" id="pr_marathon" name="pr_distance_name" /> Marathon
+			<legend>Personal best race time:</legend>
+				<input type="text" class="textbox" id="pr_time" name="pr_time_name" />
+		</form>
+
+		<div>
+		<form>
+			<input type="button" id="program_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="date_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="distance_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="days_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="age_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="mileage_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="pr_button" class="button" value="Next">
+		</form>
+
+		<form>
+			<input type="button" id="calendar_button" class="button" value="Make Calendar!">
+		</form>
+
+
+		<!p elements used to store data>
+
+		</div>
+
+		<p id="which_program"> </p>
+
+		<p id="race_d"> </p>
+
+		<p id="race_distance"> </p>
+
+		<p id="training_days"> </p>
+
+		<p id="age_text"> </p>
+
+		<p id="mileage_text"> </p>
+
+		<p id="pr"> </p>
+
+		<div id = "hr_zones">
+
+		<p id="hr_info"> </p>
+
+		<p id="hr_low"> </p>
+
+		<p id="hr_moderate"> </p>
+
+		<p id="hr_high"> </p>
+
+		</div>
+
+		<script src="js/project.js"></script> <! link to Javascript file>
+
+	</body>
+
+</html>

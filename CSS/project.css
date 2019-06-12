@@ -1,0 +1,83 @@
+/* greg giordano */
+/* cs1300 project */
+
+/* settings for everything */
+* {
+	font-family: "Arial";
+	font-size: 18px;
+	background-color: greenyellow;
+	text-align: center;
+}
+
+/* move forms down */
+form {
+	padding-top: 15px;
+	display: inline-block;
+}
+
+/* so that the textbox colors aren't the same color as the background */
+.textbox{background-color: white}
+
+/* size and pad images */
+img {
+	padding-top: 15px;
+	width: 50%;
+	height: 50%;
+}
+
+/* format buttons */
+.button{
+	background-color: aliceblue;
+	margin: auto;
+	padding: 10px 30px;
+}
+
+/* format header */
+h1 {
+	padding-top: 15px;
+	font-size: 30px;
+}
+
+/* format cells */
+td {
+	border: 2px solid black;
+	white-space:pre;
+	background-color: aliceblue;
+}
+
+/* format table */
+table {
+	width: 80%;
+	margin: auto;
+	border: 2px solid black;
+}
+
+/* a div for the heart rate data that starts as hidden and is unhidden if the advanced program is selected */
+#hr_zones {display: none}
+#hr_zones {border-style: solid}
+
+/* forms that start as hidden and are unhidden by functions */
+#race_date_form {display: none}
+#race_distance_form {display: none}
+#days_form {display: none}
+#age_form {display: none}
+#mileage_form {display: none}
+#pr_form {display: none}
+
+/* buttons that start as hidden and are unhidden by functions */
+#date_button{display: none}
+#distance_button{display: none}
+#days_button{display: none}
+#age_button{display: none}
+#mileage_button{display: none}
+#pr_button{display: none}
+#calendar_button{display: none}
+
+/* <p> elements used to store data that remain hidden */
+#which_program{display: none}
+#race_d{display: none}
+#race_distance{display: none}
+#training_days{display: none}
+#age_text{display: none}
+#mileage_text{display: none}
+#pr{display: none}

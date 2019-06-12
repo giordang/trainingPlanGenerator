@@ -1,0 +1,17 @@
+greg giordano
+cs1300 project
+
+Training Plan Generator
+The goal of this project was to create a program that takes input from the user to generate a training plan for a running race(with spectacular style). The user can select from a beginner or advanced plan. The inputs for the beginner plan are the date of the race, the distance of the race, and what days of the week he or she is able to train. The program will then output a calendar with a plan of how many miles to run each day. Based on these inputs, the calendar will increase total weekly mileage by 10% for two weeks, and then decrease it by 5% for one week. This cycle will continue until a predetermined maximum weekly mileage is attained, at which point weekly mileage will no longer increase, or until two weeks before the race. Weekly mileage will decrease in the final two weeks before the race by 20% each week. The day before the race will be a rest day, and the calendar will mark the day of the race as "Race Day!!!"
+
+The advanced program will also take in the user's age, which will be used to calculate heart rate zones for training. It also takes in the user's current weekly mileage to serve as the starting point to build from. 
+
+The advanced program also takes in the user's personal best race distance and time, which I had originally intended to use as a basis for prescribing running paces. I had also originally intended to insert track-style workouts into each week. In the end, I ran out of time. It took me awhile to figure out how to create the calendar table with each day displaying different miles to be run. 
+
+I think the programs make the most sense if you're running at least three days per week for the beginner program and at least four days for the advanced program.
+
+There is no form validation, so it's easy to break. 
+
+I don't think you'll need anything special to run this program. However, I've only used Chrome to run it, so I'm not sure how it looks on other browsers. Select the HTML file to run it.
+
+It was fun to make!
