@@ -1,0 +1,212 @@
+function get_program():
+	user selects beginner or advanced radio button
+	user hits button
+	hide program radio buttons
+	return program_choice
+
+function get_date():
+	show get_date text box
+	user enters date
+	user hits button
+	hide get_date text box
+	return date
+
+function get_distance():
+	show distance radio buttons
+	user selects 5k, 10k, half marathon, or full marathon radio button
+	user hits button
+	hide distance radio buttons
+	return distance_choice
+
+function get_days_per_week():
+	show days_week checkboxes
+	user selects days available for training(Mon,Tues,Wed,Thu,Fri,Sat,Sun)
+	user hits button
+	hide days_week checkboxes
+	return days_week selected in a list
+
+function get_age():
+	show get_age text box
+	user enters age
+	user hits button
+	hide get_age text box
+	return age
+
+function get_current_mileage():
+	show get_current_mileage text box
+	user enters current weekly mileage
+	user hits button
+	hide get_current_mileage text box
+	return current mileage
+
+function get_personal_best():
+	show get_personal_best radio buttons and text box
+	user selects radio button for distance
+	user enters time into text box
+	user hits button
+	hide get_personal_best radio buttons and text box
+	return time and distance in list
+
+function output_calendar(distance, race_date, days_week, age, current_mileage, personal_best):
+	make_training_object
+	make_calendar_boxes_dates(race_date)
+	make_training_calendar(days_week)
+
+functions empty_calendar(race_date)
+	get current date
+
+
+function beginner_calendar(race_date, distance, days)
+	empty_calendar(race_date)
+
+	build calendar table
+	do running calculations
+	add training to calendar
+
+
+
+
+main():
+	program = get_program()
+	race_date = get_date()
+	distance = get_distance()
+	days_week = get_days_week
+	if program = advanced:
+		age = get_age()
+		current_mileage = get_current_mileage()
+		personal_best = get_personal_best()
+
+	if beginner push_calendar button:
+		race_date = date element
+		distance = distance element
+		days = days element
+		output_calendar(race_date, distance, days)
+	if advanced push_calendar button:
+		race_date = date element
+		distance = distance element
+		days = days element
+		age = age element
+		current_mileage = mileage element
+		personal_best = personal best element
+		output_calendar(race_date, distance, days, age, current_mileage, personal_best)
+
+makeCalendar
+	for i < months ybtuk race
+		makeMonth
+
+
+
+
+*************
+CALCULATE DAYS UNTIL EVENT
+
+months = [January, February, March, April, May, June, July, August, September, October, November, December]
+days_in_month = [31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31 ,31]
+
+var current_month = getcurrentdate(month)
+var current_day = getcurrentdate(day)
+var days_left_current_month = days_in_month[current_month] - current date day
+var days_left_target_month = gettargetdate(day)
+
+do
+target_month++
+if target_month == 13
+	target_month = 1
+days_between = days_between + days_in_month[target_month]
+while starting_month < target_month
+
+var total_days = days_between + days_left_current_month + days_left_target_month
+
+
+***********
+
+
+var target_month
+var target
+
+figure out how many days until event
+make calendar
+
+	for 4 weeks tr
+		for 7 days td
+
+
+
+
+
+
+
+
+
+
+
+when page loads(main)
+
+********************
+training_object:
+
+training_week:
+	days until event =
+	training days =
+	weekly distance
+
+
+Beginner calendar(race_distance, race_date, days_week)
+	days_total_week = [Mon, Tues, Wed, Thu, Fri, Sat, Sun]
+	weekly_mileage = 10
+	days_until_event = ???
+	weeks_until_event = days until event // 7
+	while i < weeks_until_event:
+		weeks_list = append i
+		i++
+	for i in weeks_list
+
+
+
+
+*****************************************************************
+
+
+function get training week()
+function get training_day(foo, bar){
+	var weekly_miles = get_weekly_miles(foo bar); // this could return a list with a value for each day, checks to see if day is selected by calling anoter function
+	if date object = Monday && Monday is selected from the check box, make them choose at least 3?
+		get training_monday
+	if date object = Tuesday && Tuesday is selected from the check box, make them choose at least 3?
+		get training_tuesday
+}
+
+
+function get_training_day(date of training, week of training, days until event, weeks until event, beginner or advanced, distance of event, training days of week) {
+	
+return a list!!!!
+
+}
+
+to do:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
