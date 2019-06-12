@@ -5,7 +5,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "debug": "^4.1.1",
+    "express": "^4.13.3",
+    "fresh": "^0.5.2",
+    "mime": "^2.4.4",
+    "negotiator": "^0.6.2"
   },
   "author": "Greg Giordano",
   "license": "ISC",
