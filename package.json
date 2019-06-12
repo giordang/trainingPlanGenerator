@@ -1,0 +1,25 @@
+{
+  "name": "trainingplangenerator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "author": "Greg Giordano",
+  "license": "ISC",
+  "description": "greg giordano cs1300 project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greg-giordano/trainingPlanGenerator.git"
+  },
+  "keywords": [
+    "exercise"
+  ],
+  "bugs": {
+    "url": "https://github.com/greg-giordano/trainingPlanGenerator/issues"
+  },
+  "homepage": "https://github.com/greg-giordano/trainingPlanGenerator#readme"
+}
